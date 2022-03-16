@@ -35,7 +35,7 @@ function powersOfTwo(n) {
 ## Education:
 **2013-2017** Polotsk State University. Software engineer. 
 
-## Certificate:
+## Certificates:
 <img src="https://www.sololearn.com/Certificate/1014-2325658/jpg/" width="400" alt="html certificate">
 <img src="https://www.sololearn.com/Certificate/1024-2325658/jpg/" width="400" alt="js certificate">
 
