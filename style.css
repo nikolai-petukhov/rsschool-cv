@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 26px;
+}
+header {
+    background-color: FireBrick;
+    grid-area: header;
+    align-self: center;
+}
+.container {
+    display: grid;
+    grid-template-columns:1fr 2fr 1fr;
+    grid-template-areas: "header header header"
+                         ". content ."
+                         "footer footer footer";
+}
+
+.content {
+    grid-area: content;
+}
+
+footer {
+    background-color: FireBrick;
+    grid-area: footer;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-list{
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.nav-list-item{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-list-item:hover {
+    text-decoration: underline;
+}
+
+.cv-item {
+    margin-bottom: 60px;
+    border-bottom: 2px solid firebrick;
+}
+
+.cv-item:last-child {
+    border-bottom: none;
+}
+
+.cv-item-title{
+    color: firebrick;
+}
+
+.cv-item-text{
+    text-indent: 20px;
+    text-align: justify;
+}
+
+.rss-logo {
+    height: 40px;
+    width: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.photo {
+    height: 150px;
+    width: auto;
+    border-radius: 50%;
+}
+
+.two-cols {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contacts-list {
+    padding: 20px;
+    list-style: none;
+}
+
+.contacts-list > li {
+    padding: 10px 0px 10px 0px;
+}
+
+.contacts-list > li > i {
+    color: firebrick;
+}
+
+.contacts-list-item {
+    text-decoration: none;
+    padding-left: 20px;
+    color: black;
+}
+
+.contacts-list-item:hover {
+    text-decoration: underline;
+}
+
+.project-link {
+    color: black;
+    text-decoration: none;
+}
+
+.project-link:hover {
+    text-decoration: underline;
+}
+
+.icon-size {
+    width: 26px;
+    height: 26px;
+}
